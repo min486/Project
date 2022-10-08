@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  min-width: 1280px;
+  color: #333333;
+}
+
+.flexer {
+  display: flex;
+}
+
+.center {
+  justify-content: space-between;
+}
+
+.height {
+  height: 80px;
+  padding: 0 40px;
+  position: sticky;
+  top: 0;
+}
+
+.a {
+  margin: 2rem;
+}
+
+.justify {
+  justify-content: center;
+}
+
+.px {
+  height: 60px;
+  float: left
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 320px;
+  background-image: url(./images/background.jpg);
+  margin-top: 80px;
+}
+
+.content {
+  width: 20%;
+  padding: 1rem;
+}
+
+.ul {
+  list-style: none;
+  padding: 0;
+} 
+
+.main {
+  display: flex;
+  padding: 0;
+}
+
+.movie-all {
+  background-color: darkgray;
+  padding: 24px;
+  width: 80% ;
+}
+
+.movie-h2 {
+  text-align: center;
+}
+
+.movie-ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.movie-img {
+  width: 300px;
+  border-radius: 1rem;
+}
+
+.movie-text {
+  text-align: center;
+}
+
+.movie-li {
+  margin: 0 3rem;
+}
+
+.foot-div {
+  height: 10rem;
+}
+
+.footer {
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.foot-text {
+  color: white;
+  text-align: center;
+}
